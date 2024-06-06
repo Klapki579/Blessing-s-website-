@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blessing - Operating Department Practitioner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section {
+            background-color: #fff;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .gym-theme {
+            background-image: url('https://www.example.com/gym-background.jpg'); /* Placeholder for a gym-themed background image */
+            background-size: cover;
+            color: #fff;
+            text-shadow: 2px 2px 4px #000;
+        }
+    </style>
+</head>
+<body>
+    <header class="gym-theme">
+        <h1>Blessing - Operating Department Practitioner</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#work">Professional Work</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="section gym-theme">
+            <h2>About Me</h2>
+            <p>Hello! My name is Blessing. I was born in Zimbabwe but now I'm a proud British citizen. I work as an Operating Department Practitioner and also have a passion for fitness and health.</p>
+        </div>
+        <div id="hobbies" class="section gym-theme">
+            <h2>Hobbies</h2>
+            <p>In my free time, I enjoy going to the gym, playing golf, and watching movies at the cinema.</p>
+        </div>
+        <div id="work" class="section gym-theme">
+            <h2>Professional Work</h2>
+            <p>Aside from being an Operating Department Practitioner, I also work as a chef in a pub. Balancing these roles can be challenging but incredibly rewarding.</p>
+        </div>
+        <div id="contact" class="section gym-theme">
+            <h2>Contact</h2>
+            <p>You can reach me at: <a href="mailto:blessing@example.com">blessing@example.com</a></p>
+        </div>
+    </div>
+    <footer class="gym-theme">
+        <p>&copy; 2024 Blessing. All rights reserved.</p>
+    </footer>
+</body>
+</html>
